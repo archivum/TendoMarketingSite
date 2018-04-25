@@ -11,7 +11,7 @@
 
 
 $from = 'Contact form <noreply@tendopay.ph>';
-$sendTo = 'Tim Grassin <tim@tendopay.ph>';
+$sendTo = 'Tim Grassin <info@tendopay.ph>';
 
 
 // -------------------------------------------
