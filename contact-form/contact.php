@@ -10,8 +10,8 @@
 // -------------------------------------------
 
 
-$from = 'Contact form <your_email@example.com>';
-$sendTo = 'Your name <your_email@example.com>';
+$from = 'Contact form <noreply@tendopay.ph>';
+$sendTo = 'Tim Grassin <tim@tendopay.ph>';
 
 
 // -------------------------------------------
@@ -46,7 +46,7 @@ try
         'Reply-To: ' . $from,
         'Return-Path: ' . $from,
     );
-    
+
     mail($sendTo, $subject, $emailText, implode("\r\n", $headers));
 
     $responseArray = array('type' => 'success', 'message' => $okMessage);
